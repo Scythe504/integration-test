@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test:integration": "chmod +x ./scripts/* && ./scripts/run-integration.sh"
+    "test:integration": "./scripts/* && ./scripts/run-integration.sh"
   },
   "keywords": [],
   "author": "",
